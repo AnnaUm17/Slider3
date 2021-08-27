@@ -6,7 +6,12 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const slider = new ChiefSlider('.slider', {
-        loop: false
+        loop: true,
+        autoplay: false,
+        interval: 5000,
+        swipe: true,
+        refresh: false
+
     });
 });
 
